@@ -1,8 +1,8 @@
-package ayyubxon.rustamov.springsecuritynewconfiguration.controller;
+package ayyubxon.rustamov.springsecurityconfiguration.controller;
 
-import ayyubxon.rustamov.springsecuritynewconfiguration.config.JwtUtils;
-import ayyubxon.rustamov.springsecuritynewconfiguration.dao.UserDao;
-import ayyubxon.rustamov.springsecuritynewconfiguration.dto.AuthenticationRequest;
+import ayyubxon.rustamov.springsecurityconfiguration.config.JwtUtils;
+import ayyubxon.rustamov.springsecurityconfiguration.dao.UserDao;
+import ayyubxon.rustamov.springsecurityconfiguration.dto.AuthenticationRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

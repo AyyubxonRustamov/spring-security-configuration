@@ -1,6 +1,6 @@
-package ayyubxon.rustamov.springsecuritynewconfiguration.config;
+package ayyubxon.rustamov.springsecurityconfiguration.config;
 
-import ayyubxon.rustamov.springsecuritynewconfiguration.dao.UserDao;
+import ayyubxon.rustamov.springsecurityconfiguration.dao.UserDao;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

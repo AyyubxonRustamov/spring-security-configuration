@@ -12,10 +12,10 @@
     </parent>
 
     <groupId>ayyubxon.rustamov</groupId>
-    <artifactId>spring-security-new-configuration</artifactId>
+    <artifactId>spring-security-configuration</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-security-new-configuration</name>
-    <description>spring-security-new-configuration</description>
+    <name>spring-security-configuration</name>
+    <description>spring-security-configuration</description>
 
     <properties>
         <java.version>11</java.version>

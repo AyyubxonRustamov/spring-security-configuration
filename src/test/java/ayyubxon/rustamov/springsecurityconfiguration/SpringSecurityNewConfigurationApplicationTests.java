@@ -1,4 +1,4 @@
-package ayyubxon.rustamov.springsecuritynewconfiguration;
+package ayyubxon.rustamov.springsecurityconfiguration;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

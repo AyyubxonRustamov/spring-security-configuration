@@ -1,4 +1,4 @@
-package ayyubxon.rustamov.springsecuritynewconfiguration.controller;
+package ayyubxon.rustamov.springsecurityconfiguration.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

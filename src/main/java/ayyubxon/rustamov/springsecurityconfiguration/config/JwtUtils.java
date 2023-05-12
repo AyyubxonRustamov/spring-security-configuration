@@ -1,4 +1,4 @@
-package ayyubxon.rustamov.springsecuritynewconfiguration.config;
+package ayyubxon.rustamov.springsecurityconfiguration.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -14,7 +14,7 @@ import java.util.function.Function;
 @Service
 public class JwtUtils {
 
-    private String SECRET_KEY = "sacred";
+    private final String SECRET_KEY = "secret_key";
 
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
@@ -47,7 +47,6 @@ public class JwtUtils {
     }
 
     private String createToken(Map<String, Object> claims, UserDetails userDetails) {
-        System.out.println(userDetails);
         return Jwts.builder()
                 .setClaims(claims)
                 .setSubject(userDetails.getUsername())

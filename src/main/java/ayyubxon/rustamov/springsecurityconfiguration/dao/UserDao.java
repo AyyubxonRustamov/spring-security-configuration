@@ -1,4 +1,4 @@
-package ayyubxon.rustamov.springsecuritynewconfiguration.dao;
+package ayyubxon.rustamov.springsecurityconfiguration.dao;
 
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
